@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman';
+    background-color: white;
+    min-height: 100vh;
+}
+
+header {
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.869);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 50%;
+    right: 0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.906);
+    position: sticky;
+    color: white;
+    top: 100%;
+    text-align: center;
+}
